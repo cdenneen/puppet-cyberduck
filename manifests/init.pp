@@ -4,8 +4,8 @@
 #
 #   include cyberduck
 class cyberduck {
-  package { 'Cyberduck':
+  package { 'Cyberduck-4.1.3':
     provider   => 'compressed_app',
-    source     => 'http://cyberduck.ch/Cyberduck-4.2.1.zip'
+    source     => 'http://cyberduck.ch/Cyberduck-4.1.3.zip'
   }
 }
